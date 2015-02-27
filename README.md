@@ -20,4 +20,9 @@ Return from GPS Module is NEMA Format.
 
 Sends the String as a SMS to base number, the mobile with the base number is connected to a raspi.
 
-The raspi uses minterm utility to check for messages on the base phone. Parses messages and plots the lat,lang on google maps. 
+The raspi uses minterm utility to check for messages on the base phone. 
+The phone should up as /dev/ttyxxx
+Parses messages and plots the lat,lang on google maps. 
+
+Tested using Nokia E71 as the Tracker Mobile. 
+Nokia Xpress 5800 was used as base number connected to raspi.
